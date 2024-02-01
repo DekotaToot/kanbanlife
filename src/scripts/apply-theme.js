@@ -1,6 +1,6 @@
-import { argbFromHex, themeFromSourceColor, applyTheme } from '@material/material-color-utilities'
+import { applyTheme } from '@material/material-color-utilities'
+import theme from '../utils/theme.js'
 
-const theme = themeFromSourceColor(argbFromHex('#86acf1'))
 
 const colorSchemeQuery = matchMedia('(prefers-color-scheme: dark)')
 

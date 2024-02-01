@@ -36,7 +36,7 @@ export default function Board() {
 			: 
 				statuses.map((status, index) => 
 					<div className='w-1/3' key={index}>
-						<h1 className='text-xl border-b'>{status}</h1>
+						<h1 className='text-xl text-md-primary dark:text-md-dark-primary border-b border-md-outline dark:border-md-dark-outline'>{status}</h1>
 						<StatusColumn status={status}/>
 					</div>
 				)

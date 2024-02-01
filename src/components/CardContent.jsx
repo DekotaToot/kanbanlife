@@ -29,7 +29,7 @@ export default function CardContent({title, status, labels, description, points,
 	}
 
 	return <>
-		<h2>{title}</h2>
+		<h2 className='text-lg text-black dark:text-white'>{title}</h2>
 		<md-chip-set>
 			{labels.map((label, index) => <md-assist-chip label={label} key={index} onClick={() => {
 				setCurrentLabel(label)
